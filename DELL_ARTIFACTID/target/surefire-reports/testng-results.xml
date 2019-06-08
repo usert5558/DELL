@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="21" started-at="2019-06-08T15:20:56Z" finished-at="2019-06-08T15:20:56Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="21" started-at="2019-06-08T15:20:56Z" finished-at="2019-06-08T15:20:56Z">
+      <class name="com.java.DELLPKG.AppTest">
+        <test-method status="PASS" signature="unitlevel1()[pri:0, instance:com.java.DELLPKG.AppTest@48140564]" name="unitlevel1" duration-ms="0" started-at="2019-06-08T15:20:56Z" finished-at="2019-06-08T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitlevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest -->
+      <class name="com.java.DELLPKG.AppTest1">
+        <test-method status="PASS" signature="unitLevel1()[pri:0, instance:com.java.DELLPKG.AppTest1@2c8d66b2]" name="unitLevel1" duration-ms="10" started-at="2019-06-08T15:20:56Z" finished-at="2019-06-08T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitLevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest1 -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>

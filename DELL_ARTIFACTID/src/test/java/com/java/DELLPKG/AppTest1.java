@@ -1,20 +1,15 @@
 package com.java.DELLPKG;
+//#package com.java.DELLPKG;
+//#import static org.junit.Assert.assertTrue;
+import org.testng.annotations.Test;
+//#import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
 public class AppTest1 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void  unitLevel1()
     {
-        assertTrue( true );
+  //      #assertTrue( true );
+	System.out.println("testClass: Unit level1 testing");
     }
 }

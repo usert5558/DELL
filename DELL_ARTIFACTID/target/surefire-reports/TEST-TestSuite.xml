@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.java.DELLPKG.AppTest" time="0.143" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.664" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/test-classes:/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/classes:/var/lib/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/var/lib/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/test-classes:/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/classes:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/root/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -16,10 +16,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire/surefirebooter4282080802047924313.jar /var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire 2019-06-08T14-31-41_781-jvmRun1 surefire4332604625630059405tmp surefire_08199777477316340794tmp"/>
-    <property name="surefire.test.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/test-classes:/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/classes:/var/lib/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/var/lib/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.java.command" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire/surefirebooter4065266961755565211.jar /var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire 2019-06-08T15-20-54_735-jvmRun1 surefire5749594777340832295tmp surefire_06705065602661666565tmp"/>
+    <property name="surefire.test.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/test-classes:/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/classes:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/root/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="user.home" value="/root"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre"/>
@@ -29,18 +29,18 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire/surefirebooter4282080802047924313.jar"/>
+    <property name="surefire.real.class.path" value="/var/lib/jenkins/workspace/proj_pipeline/DELL_ARTIFACTID/target/surefire/surefirebooter4065266961755565211.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_212-b04"/>
-    <property name="user.name" value="jenkins"/>
+    <property name="user.name" value="root"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="3.10.0-957.12.2.el7.x86_64"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/var/lib/jenkins/.m2/repository"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_212"/>
@@ -57,5 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.java.DELLPKG.AppTest" time="0.001"/>
+  <testcase name="unitLevel1" classname="com.java.DELLPKG.AppTest1" time="0.025"/>
+  <testcase name="unitlevel1" classname="com.java.DELLPKG.AppTest" time="0"/>
 </testsuite>
