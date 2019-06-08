@@ -1,7 +1,7 @@
 package com.java.DELLPKG;
 import org.testng.annotations.Test;
 
-public class AppTest1 
+public class AppTest2 
 {
     @Test
     public void  unitLevel1()

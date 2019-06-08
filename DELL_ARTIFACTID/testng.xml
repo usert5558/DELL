@@ -3,6 +3,8 @@
   <test name="Regression suite 1" >
     <classes>
       <class name="com.java.DELLPKG.AppTest1"/>
+      <class name="com.java.DELLPKG.AppTest2"/>
+      <class name="com.java.DELLPKG.AppTest3"/>
       <class name="com.java.DELLPKG.AppTest"/>
     </classes>
  </test>
