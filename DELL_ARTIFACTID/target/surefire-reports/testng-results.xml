@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="57" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="57" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+      <class name="com.java.DELLPKG.AppTest2">
+        <test-method status="PASS" signature="unitLevel1()[pri:0, instance:com.java.DELLPKG.AppTest2@2133c8f8]" name="unitLevel1" duration-ms="0" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitLevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest2 -->
+      <class name="com.java.DELLPKG.AppTest">
+        <test-method status="PASS" signature="unitlevel1()[pri:0, instance:com.java.DELLPKG.AppTest@3cb5cdba]" name="unitlevel1" duration-ms="0" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitlevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest -->
+      <class name="com.java.DELLPKG.AppTest1">
+        <test-method status="PASS" signature="unitLevel1()[pri:0, instance:com.java.DELLPKG.AppTest1@7c30a502]" name="unitLevel1" duration-ms="23" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitLevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest1 -->
+      <class name="com.java.DELLPKG.AppTest3">
+        <test-method status="PASS" signature="unitLevel1()[pri:0, instance:com.java.DELLPKG.AppTest3@49e4cb85]" name="unitLevel1" duration-ms="1" started-at="2019-06-08T15:38:15Z" finished-at="2019-06-08T15:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitLevel1 -->
+      </class> <!-- com.java.DELLPKG.AppTest3 -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
